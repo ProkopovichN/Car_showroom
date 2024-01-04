@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Profile" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:text="Личный кабинет"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/name_sur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="30dp"
+        app:cardCornerRadius="15dp">
+
+        <TextView
+            android:id="@+id/info_car_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/info_car_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_to_TO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/red"
+        android:text="Запись на ТО"
+        android:visibility="invisible"
+        app:cornerRadius="15dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_sale"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="430dp"
+        app:cardCornerRadius="15dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:text="Покупка авто"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/auto_sale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/status_sale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_to"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="30dp"
+        app:cardCornerRadius="15dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:text="Запись на ТО"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/time_TO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="65dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/date_TO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/status_TO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="95dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_info_car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="340dp"
+        android:backgroundTint="@color/red"
+        android:text="Добавить информацию об авто"
+        app:cornerRadius="15dp" />
+</FrameLayout>

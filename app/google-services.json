@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "640397559645",
+    "project_id": "databaseshowroom",
+    "storage_bucket": "databaseshowroom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640397559645:android:a6052dcbd1c3a0702d8ab4",
+        "android_client_info": {
+          "package_name": "com.example.car_showroom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdEDhHP9cEh2qtqFXZS5Cdt9DsHfF29Pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FD369"
+    tools:context=".Registration">
+
+    <EditText
+        android:id="@+id/reg_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="121dp"
+        android:ems="10"
+        android:hint="Имя"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/reg_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Фамилия"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/reg_name"
+        app:layout_constraintStart_toStartOf="@+id/reg_name"
+        app:layout_constraintTop_toBottomOf="@+id/reg_name" />
+
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/reg_surname"
+        app:layout_constraintStart_toStartOf="@+id/reg_surname"
+        app:layout_constraintTop_toBottomOf="@+id/reg_surname" />
+
+    <EditText
+        android:id="@+id/reg_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Пароль"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/reg_email"
+        app:layout_constraintStart_toStartOf="@+id/reg_email"
+        app:layout_constraintTop_toBottomOf="@+id/reg_email" />
+
+    <Button
+        android:id="@+id/reg_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#000000"
+        android:text="Зарегистрироваться"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/reg_password"
+        app:layout_constraintStart_toStartOf="@+id/reg_password"
+        app:layout_constraintTop_toBottomOf="@+id/reg_password" />
+</androidx.constraintlayout.widget.ConstraintLayout>

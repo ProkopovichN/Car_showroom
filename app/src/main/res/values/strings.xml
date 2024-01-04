@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Car_showroom</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Urls">
+        <item>https://img.badfon.ru/wallpaper/big/4/9b/bmw-x4-concept-mashina-vid.jpg</item>
+        <item>https://wp-s.ru/wallpapers/1/0/326493194842102/krasnaya-mashina-vid-sboku-v-zheleznyx-oboj.jpg</item>
+    </string-array>
+    <string-array name="Names">
+        <item>BMW X5</item>
+        <item>Bugatti Chiron</item>
+    </string-array>
+    <string-array name="Price">
+        <item>2150000</item>
+        <item>50000000</item>
+    </string-array>
+</resources>
